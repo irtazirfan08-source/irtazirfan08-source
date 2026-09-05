@@ -1,4 +1,4 @@
-# Hi there, I'm Irtaz Irfan 👋
+# Hi there, Myself Irtaz Irfan 👋
 
 **AI Systems & Machine Learning Engineer**  
 Specialized in architecting autonomous developer copilots, low-latency ML microservices, grounded RAG pipelines, spatial intelligence engines, and real-time audio/telemetry diagnostic systems.
@@ -75,9 +75,14 @@ Specialized in architecting autonomous developer copilots, low-latency ML micros
 
 ---
 
-### 📊 GitHub Activity & Analytics
+### 📊 GitHub Activity & Streak
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=irtazirfan08-source&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Irtaz Irfan's GitHub Stats" height="160" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=irtazirfan08-source&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="160" />
+  <img src="https://streak-stats.demolab.com?user=irtazirfan08-source&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="175" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=irtazirfan08-source&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="95%" />
 </div>
