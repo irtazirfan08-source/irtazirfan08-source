@@ -78,11 +78,5 @@ Specialized in architecting autonomous developer copilots, low-latency ML micros
 ### 📊 GitHub Activity & Streak
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=irtazirfan08-source&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="175" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=irtazirfan08-source&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="95%" />
+  <img src="https://streak-stats.demolab.com?user=irtazirfan08-source&theme=tokyonight&hide_border=true&timezone=Asia%2FDhaka" alt="GitHub Streak" height="195" />
 </div>
