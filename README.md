@@ -36,28 +36,15 @@ Specialized in parameter-efficient model alignment, high-throughput LLM serving 
 
 ---
 
-### 🚀 Flagship Core Architectures
-
-| Repository | Domain | Key Architecture / Technical Metric | Status |
-| :--- | :--- | :--- | :--- |
-| **[vlm-spatial-eval](https://github.com/irtazirfan08-source/vlm-spatial-eval)** | VLM Post-Training & Eval | PEFT/LoRA ($r=8$) spatial alignment; **+8.3% accuracy gain** under noise degradation | CI Passing (12 Tests) |
-| **[PagedInfer](https://github.com/irtazirfan08-source/PagedInfer)** | ML Systems & LLM Serving | Paged KV-cache memory virtualization; eliminated internal memory fragmentation | Production Core |
-| **[Dual-Attention-GAN-LLIE](https://github.com/irtazirfan08-source/Dual-Attention-GAN-LLIE)** | Generative Image Restoration | Dual spatial/channel attention GAN on LoLI-Street; quantitative PSNR/SSIM evaluation | Benchmark Ready |
-| **[VectorCore](https://github.com/irtazirfan08-source/VectorCore)** | Information Retrieval & Search | Custom Approximate Nearest Neighbor (ANN) index; sub-2ms high-dimensional vector search | Optimized |
-| **[MCP-Mesh](https://github.com/irtazirfan08-source/MCP-Mesh)** | Distributed Agent Protocols | Model Context Protocol gateway with automated discovery & bidirectional schema routing | Microservice Mesh |
-| **[CTG_Shield_Spatial_Engine](https://github.com/irtazirfan08-source/CTG_Shield_Spatial_Engine)** | Geospatial Risk & Streaming | PostGIS polygonal queries (`ST_Contains`, `ST_DWithin`) with sub-second WebSocket SOS dispatch | Live Backend |
-
----
-
 ### 🔬 Flagship Deep Dives
 
 1. **[vlm-spatial-eval — Spatial Robustness Benchmark & LoRA Alignment for VLMs](https://github.com/irtazirfan08-source/vlm-spatial-eval)**
    * **Domain:** Multimodal Alignment, Vision-Language Robustness & Parameter-Efficient Fine-Tuning (PEFT)
-   * **Capabilities & Metrics:** Diagnosed architectural degradation modes across CLIP, SigLIP, and SmolVLM under photometric noise. Engineered a conversational synthetic instruction dataset and trained low-rank adapters (`q_proj`, `v_proj`, $r=8$, 0.29% trainable params) with prompt loss-masking. Achieved an **+8.3% absolute accuracy gain** on balanced relational discrimination without catastrophic forgetting on open-domain visual tasks.
+   * **Capabilities & Metrics:** Diagnosed architectural degradation modes across CLIP, SigLIP, and SmolVLM under photometric noise. Engineered a conversational synthetic instruction dataset and trained low-rank adapters (`q_proj`, `v_proj`, $r=8$, 0.29% trainable params) with prompt loss-masking. Achieved an **+8.3% absolute accuracy gain** on balanced relational discrimination without catastrophic forgetting on open-domain visual tasks. Automated with 12 unit tests and GitHub Actions CI.
 
 2. **[PagedInfer — High-Throughput Paged KV-Cache LLM Serving Engine](https://github.com/irtazirfan08-source/PagedInfer)**
    * **Domain:** ML Systems Engineering, Memory Virtualization & Autoregressive Inference
-   * **Capabilities & Metrics:** Implemented non-contiguous virtual memory block allocation for LLM key-value caches, eliminating GPU/CPU memory fragmentation. Features continuous dynamic request batching, prefill/decode phase separation, and asynchronous streaming generation for high-concurrency client workloads.
+   * **Capabilities & Metrics:** Implemented non-contiguous virtual memory block allocation for LLM key-value caches, eliminating memory fragmentation. Features continuous dynamic request batching, prefill/decode phase separation, and asynchronous streaming generation for high-concurrency client workloads.
 
 3. **[Dual-Attention-GAN-LLIE — Generative Low-Light Image Restoration](https://github.com/irtazirfan08-source/Dual-Attention-GAN-LLIE)**
    * **Domain:** Deep Learning Vision Research, Generative Adversarial Networks & Restoration
@@ -73,7 +60,7 @@ Specialized in parameter-efficient model alignment, high-throughput LLM serving 
 
 6. **[CTG_Shield_Spatial_Engine — Geospatial Risk Telemetry & Emergency SOS Dispatch](https://github.com/irtazirfan08-source/CTG_Shield_Spatial_Engine)**
    * **Domain:** Geospatial Intelligence, Spatial Databases & Real-Time Telemetry
-   * **Capabilities & Metrics:** Engineered an asynchronous FastAPI spatial telemetry engine backed by PostGIS spatial indexing (`ST_Contains`, `ST_DWithin`) for real-time hazard polygon intersections. Delivers sub-second emergency WebSocket broadcasts synchronized with the cross-platform native client (**[CTG_Shield_Mobile](https://github.com/irtazirfan08-source/CTG_Shield_Mobile)**).
+   * **Capabilities & Metrics:** Engineered an asynchronous FastAPI spatial telemetry engine backed by PostGIS spatial indexing (`ST_Contains`, `ST_DWithin`) for real-time hazard polygon intersections. Delivers sub-second emergency WebSocket broadcasts synchronized with the cross-platform native Flutter client (**[CTG_Shield_Mobile](https://github.com/irtazirfan08-source/CTG_Shield_Mobile)**).
 
 ---
 
