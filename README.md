@@ -82,5 +82,5 @@ Specialized in parameter-efficient model alignment, high-throughput LLM serving 
 ### 📊 GitHub Activity & Streak
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=irtazirfan08-source&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="195" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=irtazirfan08-source&theme=tokyo-night&hide_border=true" alt="Activity Graph" width="100%" />
 </div>
